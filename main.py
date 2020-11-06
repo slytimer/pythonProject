@@ -54,7 +54,7 @@ print('3 The probability that all extracted parts are painted ',p, '%')
 #В лотерее 100 билетов. Из них 2 выигрышных. Какова вероятность того, что 2 приобретенных билета окажутся выигрышными?
 
 t = combinations(100, 2) #overall combinations
-p = round(100/t,2)
+p = round(100*2/t,4)
 print('4 The probability that all extracted parts are painted ', p, '%')
 
 print(t)
