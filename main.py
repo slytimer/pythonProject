@@ -55,4 +55,4 @@ print('3 The probability that all extracted parts are painted ',p, '%')
 
 t = combinations(100, 2) #overall combinations
 p = round(1*100/t,4)
-print('4 The probability that all extracted parts are painted ', p, '%')
+print('4 The probability that 2 purchased tickets will be winning ', p, '%')
