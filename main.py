@@ -2,6 +2,19 @@ import numpy as np
 
 def combinations(n, k):
     return (np.math.factorial(n)/(np.math.factorial(k)*np.math.factorial(n-k)))
+
+#===========================HW2===============================================================================
+
+
+
+
+
+
+
+
+
+
+#===========================HW1===============================================================================
 #Из колоды в 52 карты извлекаются случайным образом 4 карты.
 # a) Найти вероятность того, что все карты – крести
 a = combinations(13, 4)
@@ -56,3 +69,7 @@ print('3 The probability that all extracted parts are painted ',p, '%')
 t = combinations(100, 2) #overall combinations
 p = round(1*100/t,4)
 print('4 The probability that 2 purchased tickets will be winning ', p, '%')
+
+a = combinations(2, 1)
+b = combinations(2, 2)
+print(a)
